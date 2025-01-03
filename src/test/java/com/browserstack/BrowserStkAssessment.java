@@ -31,7 +31,7 @@ public class BrowserStkAssessment {
         caps.setCapability("os_version", "10");
         caps.setCapability("browser", "Chrome");
 
-        //RemoteWebDriver init.
+        //RemoteWebDriver Init.
         WebDriver driver = new RemoteWebDriver(new URL(BROWSERSTACK_URL), caps);        
         // Storing translated titles
         List<String> translatedTitles = new ArrayList<>();
